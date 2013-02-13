@@ -19,9 +19,9 @@ The "Sign Out" link should trigger the app.signOut API. When a user signs out, t
 
 ## Project status and documentation
 
-They've got a completed page built using [Twitter Bootstrap](http://twitter.github.com/bootstrap/) and [jQuery](http://jquery.com/), as well as a javascript client to interact with their API. Their javascript client details:
+They've got a completed page (the included index.html) built using [Twitter Bootstrap](http://twitter.github.com/bootstrap/) and [jQuery](http://jquery.com/), as well as a javascript client to interact with their API. You should use these pieces to complete the requirements.
 
-The app object is already accessible on the window.
+The app object is already accessible on the window. The javascript APIs provided are as follows:
 
 ### app.signIn(credentials, success, error)
 ```javascript
@@ -29,7 +29,7 @@ The app object is already accessible on the window.
  * @method signIn
  * @param {Object} credentials
  *   @param {String} username
- *   @param {password} password
+ *   @param {String} password
  * @param {Function} success Called on success and passed one string argument which is a success message.
  * @param {Function} error Called on error and passed one string argument which is a error message.
  */
